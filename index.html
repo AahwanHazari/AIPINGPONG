@@ -1,0 +1,97 @@
+<html><head>
+    <title>Table Tennis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script><style type="text/css" data-glamor=""></style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+
+<style type="text/css">
+@font-face {
+font-weight: 400;
+font-style:  normal;
+font-family: 'Circular-Loom';
+
+src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+font-weight: 500;
+font-style:  normal;
+font-family: 'Circular-Loom';
+
+src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+font-weight: 700;
+font-style:  normal;
+font-family: 'Circular-Loom';
+
+src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+font-weight: 900;
+font-style:  normal;
+font-family: 'Circular-Loom';
+
+src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+<body class="">
+    <center>
+      <div class="btn btn-primary heading">
+        <h3>AI TABLE TENNIS</h3>
+        <button class="btn btn-info" data-toggle="modal" data-target="#myModal">INSTRUCTIONS &amp; SETTINGS</button>
+      </div>
+      <br><br>
+          <div class="copy_right_footer">
+           Made by Aahwan Hazari
+        </div>
+        <div id="myModal" class="modal fade" style="display: none;">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+        
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal">×</button>
+                <h3 style="font-family: Yeon Sung; font-weight: bold;">INSTRUCTIONS</h3>
+              </div>
+               <div class="modal-body">
+<h4 class="btn btn-warning modalBtns">Use The Mouse to move your (light blue) paddle</h4>
+<br><br>
+<h4 class="btn btn-warning modalBtns">Speed will increase on number of rallies</h4>
+<br><br>
+<h4 class="btn btn-warning modalBtns">Have Fun :D !!!!!</h4>
+<hr>
+<h3 style="font-family: Yeon Sung; font-weight: bold;">SETTINGS</h3><h3>
+</h3><h4 class="btn btn-warning modalBtns">Background Music: <br><br> <button class="btn btn-success" onclick="start();">On</button><button class="btn btn-danger" onclick="pause();">Pause</button><button class="btn btn-default" onclick="start();">Resume</button></h4>
+<br><br>
+<h4 class="btn btn-warning modalBtns">Background Music Volume: <br><br> 
+<button class="btn btn-success" onclick="zeroPointFive();">0.5</button>
+<button class="btn btn-danger" onclick="one();">1</button>
+<button class="btn btn-default" onclick="onePointFive();">1.5</button>
+<button class="btn btn-primary" onclick="two();">2</button>
+<button class="btn btn-info" onclick="twoPointFive();">2.5</button>
+<button class="btn btn-default" onclick="three();">3</button>
+</h4>
+                </div>
+  
+            </div>
+          </div>
+        </div>
+    </center>
+`
+<script src="main.js"></script>
+<canvas id="defaultCanvas0" class="p5Canvas" width="1400" height="1200" style="width: 700px; height: 600px; position: absolute; left: 254px; top: 14.5px;"></canvas></body><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container><loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
